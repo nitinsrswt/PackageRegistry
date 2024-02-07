@@ -1,0 +1,145 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HelloWorld",
+        "printedName": "HelloWorld",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HelloWorld",
+                "printedName": "MyFramework.HelloWorld",
+                "usr": "s:11MyFramework10HelloWorldC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MyFramework10HelloWorldCACycfc",
+            "mangledName": "$s11MyFramework10HelloWorldCACycfc",
+            "moduleName": "MyFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "functionA",
+            "printedName": "functionA()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MyFramework10HelloWorldC9functionAyyFZ",
+            "mangledName": "$s11MyFramework10HelloWorldC9functionAyyFZ",
+            "moduleName": "MyFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "PrintMessage",
+            "printedName": "PrintMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MyFramework10HelloWorldC12PrintMessageyyFZ",
+            "mangledName": "$s11MyFramework10HelloWorldC12PrintMessageyyFZ",
+            "moduleName": "MyFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "SayMeow",
+            "printedName": "SayMeow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MyFramework10HelloWorldC7SayMeowSSyFZ",
+            "mangledName": "$s11MyFramework10HelloWorldC7SayMeowSSyFZ",
+            "moduleName": "MyFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MyFramework10HelloWorldC",
+        "mangledName": "$s11MyFramework10HelloWorldC",
+        "moduleName": "MyFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vaibhavranwa\/Documents\/MyFramework\/MyFramework\/Something.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 12,
+      "value": "\"Production\""
+    },
+    {
+      "filePath": "\/Users\/vaibhavranwa\/Documents\/MyFramework\/MyFramework\/Something.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 15,
+      "value": "\"Hello Jiiiiii\""
+    },
+    {
+      "filePath": "\/Users\/vaibhavranwa\/Documents\/MyFramework\/MyFramework\/Something.swift",
+      "kind": "StringLiteral",
+      "offset": 746,
+      "length": 6,
+      "value": "\"Meow\""
+    }
+  ]
+}

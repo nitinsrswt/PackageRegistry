@@ -1,0 +1,12 @@
+{
+  "authentication" : {
+
+  },
+  "registries" : {
+    "[default]" : {
+      "supportsAvailability" : false,
+      "url" : "https://github.com/nitinsrswt/PackageRegistry.git"
+    }
+  },
+  "version" : 1
+}
